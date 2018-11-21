@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header{
+    position: relative;
+    background-image: url('./img/home-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.logo{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center; 
+}
+
+.navbar ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar ul{
+    display: flex;
+    
+}
+
+.navbar ul li{
+    margin-left: 40px;
+}
+
+.header-title h1, .header-title h4{
+    color: 	white;
+    margin: 0;
+    text-align: center;
+}
+
+.header-title h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.header-title h4{
+    font-family: 'Calibri';
+    font-size: 30px;
+}
+
+.header-title{
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.main ul{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    border-bottom:1px solid rgba(0,0,0,.1);
+}
+
+.title{
+    font-size: 40px;
+}
+
+.sub-title{
+    font-size: 30px;
+}
+
+.date{
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+button{
+    width:200px;
+    height:100px;
+    background-color:#00657B;
+    color:white;
+    font-size:20px;
+    font-family: Calibri;
+    font-weight:bold;
+}
+
+@media only screen and (min-width: 768px)
+
+@media (min-width: 1200px)
+@media (min-width: 992px)
+@media (min-width: 768px)
+@media (min-width: 576px)
+@media (min-width: 992px)
+@media (min-width: 768px)
+
+
+
+.text-center {
+    text-align: center!important;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
+}
+.list-inline-item {
+    display: inline-block;
+
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
+    
+}
+.list-inline-item {
+    display: inline-block;
+
+}
+
+.list-inline-item {
+    display: inline-block;
+} 
+
+
+footer .copyright {
+    font-size: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+    margin: 30px 0;
+}
+
